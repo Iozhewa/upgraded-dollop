@@ -1,19 +1,32 @@
 #!/usr/bin/env python3
 import time
 
+class Timer:
+    def __init__(self):
+        self.click:int = 0
+        self.initial:float = 0.0
+        self.final:float = 0.0
+    def elapse(self) -> float:
+        if self.click == 0:
+            self.initial = time.time()
+            self.click += 1
+        else:
+            self.final = time.time()
+            return round(self.final - self.initial, 3)
+
 class Interpreter:
     def __init__(self, filepath):
         self.filepath:str = filepath
-        self.click:int = 0
         self.runtime:float = 0.0
         self.header:list[str] = []
         self.data:dict[str, list[float]] = []
     def __str__(self):
-        f"Interpreter(path={self.filepath})"
+        return f"Interpreter(path={self.filepath})"
     
     def __parse(self) -> None:
         try:
-            self.__elapse()
+            timer = Timer()
+            timer.elapse()
             with open(self.filepath, 'r') as reader:
                 lines:list[str] = reader.readlines()
         except FileNotFoundError:
@@ -30,16 +43,8 @@ class Interpreter:
                 for index, datapoint in enumerate(line.split()):
                     key:str = acronyms[index]
                     self.data[key].append(datapoint)
-            self.runtime = self.__elapse()
+            self.runtime = timer.elapse()
             return
-    
-    def __elapse(self, initial=0, final=0) -> float:
-        if click == 0:
-            initial = time.time()
-            click += 1
-        else:
-            final = time.time()
-            return round(final-initial, 2)
     
     def summary(self) -> str:
         self.__parse()
@@ -51,6 +56,6 @@ Parsing completed in {self.runtime} seconds.
 
 if __name__ == "__main__":
     print(".")
-    path = "B2356raw2.dat"
+    path = "Round9-Runs1to15\B2356raw2.dat"
     inter = Interpreter(path)
     print(inter.summary())
