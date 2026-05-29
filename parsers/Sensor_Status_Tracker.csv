@@ -1,0 +1,39 @@
+Sensor Status Tracker,,,,,,,,
+Combines sensor reference data with current installation/connection status. Use dropdowns in columns F & G to update.,,,,,,,,
+,,,,,,,,
+SUMMARY,Present on Car:,22 / 32,Connected to IMU:,14 / 32,Unknown items:,14,,
+,,,,,,,,
+Legend:,Yes,No,Unknown,Partial / ?,,,,
+Acronym,Full Name,# Pins,Pin Configuration,Description / Data,Present on Car,Connected to IMU,Notes,Reference
+BPS,Brake Pressure Sensor,3,"5V, Signal, GND",break pressure before throttle valve,Yes,Yes,Notes say 'Brake' above BPS - confirm whether this is Boost or Brake Pressure. Connected 'somehow',https://autoditex.com/page/boost-pressure-sensor-b
+APPS1,Accelerator Pedal Position Sensor,3,"5V, Signal, GND",Position of accelerator pedal i.e. load requested,Yes,Yes,Front. Connected via ECU / BSPD - confirm path,https://www.hella.com/techworld/au/technical/senso
+APPS2,Accelerator Pedal Position Sensor (2),3,"5V, Signal, GND",Redundant APPS for plausibility check,Yes,Yes,Grouped with APPS1 - confirm wiring ,
+SAS,Steering Angle Sensor,3,"5V, Signal, GND",Shift in the steering wheel,No,No,Not on car,https://caradas.com/steering-angle-sensors/
+SP1,Suspension Potentiometer 1,3,"5V, Signal, GND",Suspension compression (originally listed as Transmission Speed - confirm),Yes,No,Suspension potentiometer - measures how much compression. NOT CONNECTED,https://www.goss.com.au/products/auxillary-sensor
+SP2,Suspension Potentiometer 2,3,"5V, Signal, GND",Suspension compression (originally listed as Transmission Speed - confirm),Yes,No,Suspension potentiometer - measures how much compression. NOT CONNECTED,
+WS1,Wheel Speed Sensor 1,3,"5V, Signal, GND",Wheel speed,No,No,Not on car,https://premierautotrade.com.au/news/wheel-speed
+WS2,Wheel Speed Sensor 2,3,"5V, Signal, GND",Wheel speed,No,No,Not on car,
+IAT1,Intake Air Temperature 1,2,"Signal, GND",Temperature of air incoming to the engine,Yes,Unknown,Connection status uncertain - verify,https://premierautotrade.com.au/news/intake-air-tem
+IAT2,Intake Air Temperature 2,2,"Signal, GND",Temperature of air incoming to the engine,Unknown,Unknown,No idea on presence or connection,
+IAT3,Intake Air Temperature 3,2,"Signal, GND",Temperature of air incoming to the engine,Unknown,Unknown,No idea on presence or connection,
+AMB,Ambient Air Temperature Sensor,3,"5V, Signal, GND",Surrounding temperature,Unknown,Unknown,Unknown - needs investigation,https://amphenol-sensors.com/en/thermometrics/as
+OIL,Oil Pressure Sensor,5,"x, OPS, 5V, 0V, OTS",Oil pressure (and temperature on combined sensor),Yes,Yes,Pressure side confirmed connected,https://meritsensor.com/inside-a-car-oil-pressure-se
+ECT,Engine Coolant Temperature,2,"Signal, GND",Engine coolant temperature,Yes,Yes,,https://mozelectronics.com/tutorials/ect-sensor-exp
+FPS,Fuel Pressure Sensor,3,"5V, Signal, GND",Fuel pressure,Yes,Yes,,https://support.haltech.com/portal/en/kb/articles/fue
+MAP,Manifold Absolute Pressure,3,"5V, Signal, GND",Absolute pressure in intake manifold,Yes,Partial,Connection has a question mark - verify,https://alkydigger.net/category/what-does-a-map-sensor-d
+CAM,Camshaft Position Sensor,3,"5V, Signal, GND","Position, speed of camshaft",Yes,Yes,,https://www.ausautostore.com/blogs/news/camshaf
+CRANK,Crankshaft Position Sensor,3,"5V, Signal, GND","Position, speed of crankshaft",Yes,Yes,,https://www.wagnerbrake.com/technical/parts-matte
+KNOCK,Knock Sensor,2,"Signal, GND","Vibrations, timings of engine explosions",Yes,Yes,Note says 'added but not' - double check the install,https://www.delphiautoparts.com/en-gb/mom/need
+TURBO,Turbo Boost / Speed Sensor,3,"5V, Signal, GND",Turbo manifold pressure / turbo speed,Unknown,Unknown,Likely turbo speed sensor - not sure on status,https://www.standardbrand.com/en/products/turboc
+GS,Gas Sensor,3,"5V, Signal, GND",Emissions,Unknown,Unknown,Not sure - investigate,https://www.hnfosensor.com/gas-sensor-for-car.htm
+SP3,Suspension Potentiometer 3,3,"5V, Signal, GND",Suspension compression,Yes,No,NOT CONNECTED,
+SP4,Suspension Potentiometer 4,3,"5V, Signal, GND",Suspension compression,Yes,No,NOT CONNECTED,
+WS3,Wheel Speed Sensor 3,3,"5V, Signal, GND",Wheel speed,Unknown,Unknown,Status unclear from notes,
+WS4,Wheel Speed Sensor 4,3,"5V, Signal, GND",Wheel speed,No,No,Not on car,
+QS,Quickshifter Sensor,3,"Ground, OUT 1, OUT 2",Gear change,Yes,Yes,,https://www.dynojetuniversity.com/pages/blog?p=po
+LTC,Lambda to CAN,4,"GND, CAN Lo, CAN Hi, 12V",Lambda (AFR) measured in exhaust,Yes,Partial,Measures in exhaust - confirm CAN connection,https://s-motorsport.com/docs/MoTeC_LTC_User_M
+BOTS,Brake Over Travel Sensor,3,"5V, Signal, GND",Detects brake pedal over-travel (loss of brake pressure),Yes,Unknown,Added from handwritten notes. Triggers if brake travels too far / loses pressure,
+TPS,Throttle Position Sensor,3,"5V, Signal, GND",Throttle plate angle / position,Yes,Yes,Added from handwritten notes,
+OTS,Oil Temperature Sensor,2,"Signal, GND",Oil temperature (may share housing with OPS),Yes,Yes,Added from handwritten notes - possibly combined with OIL sensor housing,
+MAC,MAC Valve / Boost Control Solenoid,3,"5V, Signal, GND",Air from housing to valve - regulates boost (high pressure air sensor?),Yes,Yes,Added from handwritten notes - clarify if sensor or actuator,
+TRV,Turbo Recirculation Valve,3,"5V, Signal, GND",Recirculates air on throttle close (BOV-style),Yes,Yes,Added from handwritten notes - clarify if sensor or actuator not sure if ,

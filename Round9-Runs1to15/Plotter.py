@@ -7,6 +7,8 @@ Planning to add plotting features based on: https://www.w3schools.com/python/pan
 Can't remember when I would use NumPy: https://www.w3schools.com/python/numpy/default.asp
 
 Yes, this version only exists because I need to run it on Spyder. I do still want to validate my dev work on VSCode
+
+Note other project: Parser factory with official Motec datasheet
 '''
 
 class Timer:
