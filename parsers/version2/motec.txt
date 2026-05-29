@@ -1,0 +1,797 @@
+﻿MoTeC C125 Dash Manager - test Channel Summary Report 
+Summary Information 
+File name : test 
+Version : 6.5.0 
+Date : 27/05/2026 
+Serial number of the Dash that this configuration was last sent to : 0 Configuration Comments 
+*** None *** 
+Used Channels  
+Comms RS232-2 Diag 
+GPS Time 
+GPS Latitude 
+GPS Longitude 
+GPS Speed 
+GPS Heading 
+GPS Date 
+GPS Sats Used 
+GPS Altitude 
+CAN Comms Diag 0x640 
+Engine Speed 
+Inlet Manifold Pressure 
+Inlet Air Temperature 
+Throttle Position 
+Fuel Volume 
+Fuel Mixture Aim 
+Fuel Pressure Sensor 
+Fuel Inj Primary Duty Cycle 
+Engine Efficiency 
+Throttle Pedal 
+Engine Load 
+Ignition Timing 
+Fuel Timing Primary 
+Ignition Cyl 1 Knock Level 
+Ignition Cyl 2 Knock Level 
+Ignition Cyl 3 Knock Level 
+Ignition Cyl 4 Knock Level 
+Ignition Cyl 5 Knock Level 
+Ignition Cyl 6 Knock Level 
+Ignition Cyl 7 Knock Level 
+Ignition Cyl 8 Knock Level 
+Ignition Output Cut Count 
+Fuel Output Cut Count 
+Ignition Output Cut Average 
+Fuel Output Cut Average 
+Fuel Cyl1 Prim Pulse Width 1 
+Ignition Timing State 
+Ignition Cut State 
+Engine Oil Pressure 
+Boost Pressure 
+Boost Aim 
+Boost Actuator Duty Cycle 
+Gear Lever Force Sensor 
+Inlet Camshaft Aim 
+Inlet Camshaft Bank1 Position 
+Inlet Camshaft Bank2 Position 
+Inlet Cam Bank1 Duty Cycle 
+Inlet Cam Bank2 Duty Cycle 
+Exhaust Camshaft Aim 
+Exhaust Camshaft Bank1 Pos 
+Exhaust Camshaft Bank2 Pos 
+Exhaust Cam Bank1 Duty Cycle 
+Exhaust Cam Bank2 Duty Cycle 
+Wheel Speed FL
+Page 1. 
+MoTeC C125 Dash Manager - test Channel Summary Report 
+Wheel Speed FR 
+Wheel Speed RL 
+Wheel Speed RR 
+Coolant Temperature 
+Engine Oil Temperature Fuel Temperature 
+Ambient Temperature 
+Airbox Temperature 
+Bat Volts ECU 
+Fuel Used M1 
+Exhaust Temperature 
+Engine Load Average 
+Engine Speed Limit 
+Ambient Pressure 
+Ignition Cyl 1 Trim Knock Ignition Cyl 2 Trim Knock Ignition Cyl 3 Trim Knock Ignition Cyl 4 Trim Knock Ignition Cyl 5 Trim Knock Ignition Cyl 6 Trim Knock Ignition Cyl 7 Trim Knock Ignition Cyl 8 Trim Knock Engine Run Time 
+ECU Uptime 
+Warning Source 
+Coolant Temperature Warning Coolant Pressure Warning Engine Speed Warning 
+Engine Oil Temp Warning Engine Oil Pressure Warning Crankcase Pressure Warning Fuel Pressure Warning 
+Knock Warning 
+Engine State 
+Fuel Pump State 
+Anti Lag State 
+Launch State 
+Boost Aim State 
+Engine Overrun State 
+Fuel State 
+Fuel Purge State 
+Knock State 
+Throttle Aim State 
+Fuel Closed Loop State Engine Speed Reference State Gear 
+Engine Speed Limit State Anti Lag Diagnostic 
+Launch Diagnostic 
+Boost Control Diagnostic Fuel Cut State 
+Fuel Closed Loop Diagnostic Engine OilPressure Low Switch Pit Switch 
+Launch Switch 
+Traction Switch 
+Brake State 
+Anti Lag Switch 
+Engine Run Switch 
+Gear Neutral Switch 
+Boost Limit Disable Switch Throttle Pedal Translation Sw Race Time Reset Switch Engine Run Hours Total Fuel Closed Loop Ctrl B1 Trim
+Page 2. 
+MoTeC C125 Dash Manager - test Channel Summary Report 
+Fuel Closed Loop Ctrl B2 Trim Transmission Temperature Fuel Tank Level 
+M1 General 0x640 Version No CAN Comms Diag 0x650 
+Driver Rotary Switch 1 Driver Rotary Switch 2 Driver Rotary Switch 3 Driver Rotary Switch 4 Driver Rotary Switch 5 Driver Rotary Switch 6 Driver Switch 1 
+Driver Switch 2 
+Driver Switch 3 
+Driver Switch 4 
+Driver Switch 5 
+Driver Switch 6 
+Driver Switch 7 
+Driver Switch 8 
+Exhaust Lambda 
+Exhaust Lambda Bank 1 
+Exhaust Lambda Bank 2 
+Exhaust Temp Bank 1 
+Exhaust Temp Bank 2 
+Fuel Inj Sec Contribution Fuel Timing Secondary 
+Fuel Inj Secondary Duty Cycle Fuel Pres Direct 
+Fuel Pres Direct Aim 
+Fuel Pres Direct Ctrl 
+Fuel Pres Direct Ctrl FF Fuel Pres Direct Ctrl Prop Fuel Pres Direct Ctrl Int Fuel Pres Direct B2 
+Fuel Pres Direct B2 Aim Fuel Pres Direct B2 Ctrl Fuel Pres Direct B2 Ctrl FF Fuel Pres Direct B2 Ctrl Prop Fuel Pres Direct B2 Ctrl Int Brake Pressure Front 
+Brake Pressure Rear 
+Coolant Pressure 
+Steering Pressure 
+Steering Angle 
+Inlet Mass Flow 
+Airbox Mass Flow 
+Fuel Flow 
+Fuel Inj Primary Press Fuel Inj Secondary Press Gear Input Shaft Speed Gear Output Shaft Speed Vehicle Accel Lateral 
+Vehicle Accel Long 
+Vehicle Accel Vert 
+Vehicle Yaw Rate 
+Ignition Cyl 9 Knock Level Ignition Cyl 10 Knock Level Ignition Cyl 11 Knock Level Ignition Cyl 12 Knock Level Vehicle Speed 
+Ignition Cyl 9 Trim Knock Ignition Cyl 10 Trim Knock Ignition Cyl 11 Trim Knock Ignition Cyl 12 Trim Knock M1 General 0x650 Version No
+Page 3. 
+MoTeC C125 Dash Manager - test Channel Summary Report 
+Lap Time 
+Running Lap Time 
+Lap Number 
+Lap Distance 
+Differential Temperature Driver Rotary Switch 7 Driver Rotary Switch 8 Brake Temp FL 
+Brake Temp FR 
+Brake Temp RL 
+Brake Temp RR 
+Exhaust Pressure Bank 1 Exhaust Pressure Bank 2 Engine Crankcase Pressure Alternator Current 
+Knock Threshold 
+Logging System 1 Used 
+Vehicle Speed Limit Pit Limit Alt Fuel Mode 
+Fuel Comp Sensor Diag 
+Alt Fuel Timing Prim Blend Alt Fuel Timing Sec Blend Alt Fuel Ign Timing Blend Alt Fuel Mix Aim Blend Fuel Composition 
+Alt Fuel Ign Timing 
+Alt Fuel Timing Prim 
+Alt Fuel Timing Sec 
+Alt Fuel Mix Aim 
+Alt Fuel Pressure Sensor Alt Fuel Temperature 
+Alt Fuel Cont Efficiency Alt Fuel Pump State 
+Alt Fuel Press Warning Alt Fuel Pump Active 
+CAN Comms Diag 0x6A0 
+Aux Output 1 Duty Cycle Aux Output 2 Duty Cycle Aux Output 3 Duty Cycle Aux Output 4 Duty Cycle Aux Output 5 Duty Cycle M1 General 0x6A0 Version No 
+Turbo Bank 1 Speed 
+Turbo Bank 1 Temp Inlet Turbo Bank 1 Temp Outlet Turbo Bank 1 Pressure Inlet Turbo Bank 2 Speed 
+Turbo Bank 2 Temp Inlet Turbo Bank 2 Temp Outlet 5V Aux Supply 
+8V Aux Supply 
+Bat Volts Dash 
+Dash Temp 
+G Force Lat 
+G Force Long 
+G Force Vert 
+Reset Button 
+Next Button 
+Mode Button 
+Brightness Switch 
+Beacon 
+Ground Speed 
+Drive Speed 
+Odometer 
+Lap Gain/Loss Running
+Page 4. 
+MoTeC C125 Dash Manager - test Channel Summary Report 
+Lap Gain/Loss Final 
+Lap Time Predicted 
+Reference Lap Time 
+Reference Lap Time Reset 
+Gear Detect Value 
+Session Time 
+Session Reset 
+Min Corner Speed 
+Max Straight Speed 
+Display Mode Change 
+Display Next Line 
+Alarm Acknowledge 
+Log Time Remaining 
+Log Data Available 
+Log Unloading 
+Logging Running 
+Log Memory Busy 
+CPU Usage 
+Device Up Time 
+Warning Light 
+Up Shift Light 1 
+Up Shift Light 2 
+Up Shift Light 3 
+Channels By Function  
+Connections 
+Communications 
+RS232 
+2 RX GPS - Standard RMC GGA 
+Generates Channels From  
+Comms RS232-2 Diag Diagnostic  
+Received Channels 
+Generates Channels From  
+GPS Time Id[1] var: 1, mul: 1, div: 1, add: 0,  mod: 0 
+GPS Latitude Id[1] var: 3, mul: 1, div: 1, add: 0,  mod: 0 
+GPS Longitude Id[1] var: 5, mul: 1, div: 1, add: 0,  mod: 0 
+GPS Speed Id[1] var: 7, mul:1852, div:1000, add: 0 , mod: 0 
+GPS Heading Id[1] var: 8, mul: 1, div: 1, add: 0,  mod: 0 
+GPS Date Id[1] var: 9, mul: 1, div: 1, add: 0,  mod: 0 
+GPS Sats Used Id[2] var: 7, mul: 1, div: 1, add: 0,  mod: 0 
+GPS Altitude Id[2] var: 9, mul: 1, div: 1, add: 0,  mod: 0 
+CAN 
+Bus 2 (1) M1_General_0x640_Version 5 
+Generates Channels From  
+CAN Comms Diag 0x640 Diagnostic  
+Received Channels 
+Generates Channels From  
+Coolant Temperature Id[10] off: 0, len: 1, mul: 10, div: 1,  add:-400, mask:0x FF 
+Engine Oil Temperature Id[10] off: 1, len: 1, mul: 10, div: 1,  add:-400, mask:0x FF
+Page 5. 
+MoTeC C125 Dash Manager - test Channel Summary Report 
+Fuel Temperature Id[10] off: 2, len: 1, mul: 10, div: 1,  add:-400, mask:0x FF 
+Ambient Temperature Id[10] off: 3, len: 1, mul: 10, div: 1,  add:-400, mask:0x FF 
+Airbox Temperature Id[10] off: 4, len: 1, mul: 10, div: 1,  add:-400, mask:0x FF 
+Bat Volts ECU Id[10] off: 5, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+Fuel Used M1 Id[10] off: 6, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Exhaust Temperature Id[11] off: 0, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Engine Load Average Id[11] off: 2, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Engine Speed Limit Id[11] off: 4, len: 2, mul: 1, div: 6,  add: 0, mask:0xFFFF 
+Ambient Pressure Id[11] off: 6, len: 2, mul: 10, div: 1,  add: 0, mask:0xFFFF 
+Ignition Cyl 1 Trim Knock Id[12] off: 0, len: 1, mul: 1, div: 1,  add: 0, mask:0x FF 
+Ignition Cyl 2 Trim Knock Id[12] off: 1, len: 1, mul: 1, div: 1,  add: 0, mask:0x FF 
+Ignition Cyl 3 Trim Knock Id[12] off: 2, len: 1, mul: 1, div: 1,  add: 0, mask:0x FF 
+Ignition Cyl 4 Trim Knock Id[12] off: 3, len: 1, mul: 1, div: 1,  add: 0, mask:0x FF 
+Ignition Cyl 5 Trim Knock Id[12] off: 4, len: 1, mul: 1, div: 1,  add: 0, mask:0x FF 
+Ignition Cyl 6 Trim Knock Id[12] off: 5, len: 1, mul: 1, div: 1,  add: 0, mask:0x FF 
+Ignition Cyl 7 Trim Knock Id[12] off: 6, len: 1, mul: 1, div: 1,  add: 0, mask:0x FF 
+Ignition Cyl 8 Trim Knock Id[12] off: 7, len: 1, mul: 1, div: 1,  add: 0, mask:0x FF 
+Engine Run Time Id[13] off: 0, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+ECU Uptime Id[13] off: 2, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Warning Source Id[13] off: 4, len: 1, mul: 1, div: 1,  add: 0, mask:0x FF 
+Fuel Pressure Warning Id[13] off: 5, len: 1, mul: 1, div: 1,  add: 0, mask:0x 1 
+Crankcase Pressure Warning Id[13] off: 5, len: 1, mul: 1, div: 2,  add: 0, mask:0x 2 
+Engine Oil Pressure Warning Id[13] off: 5, len: 1, mul: 1, div: 8,  add: 0, mask:0x 8 
+Engine Oil Temp Warning Id[13] off: 5, len: 1, mul: 1, div: 16,  add: 0, mask:0x 10 
+Engine Speed Warning Id[13] off: 5, len: 1, mul: 1, div: 32,  add: 0, mask:0x 20 
+Coolant Pressure Warning Id[13] off: 5, len: 1, mul: 1, div: 64,  add: 0, mask:0x 40 
+Coolant Temperature Warning Id[13] off: 5, len: 1, mul: 1, div:128,  add: 0, mask:0x 80 
+Knock Warning Id[13] off: 6, len: 1, mul: 1, div:128,  add: 0, mask:0x 80 
+Fuel Pump State Id[14] off: 0, len: 1, mul: 1, div: 1,  add: 0, mask:0x F 
+Engine State Id[14] off: 0, len: 1, mul: 1, div: 16,  add: 0, mask:0x F0 
+Launch State Id[14] off: 1, len: 1, mul: 1, div: 1,  add: 0, mask:0x F 
+Anti Lag State Id[14] off: 1, len: 1, mul: 1, div: 16,  add: 0, mask:0x F0 
+Boost Aim State Id[14] off: 2, len: 1, mul: 1, div: 16,
+Page 6. 
+MoTeC C125 Dash Manager - test Channel Summary Report 
+ add: 0, mask:0x F0 
+Fuel State Id[14] off: 3, len: 1, mul: 1, div: 1,  add: 0, mask:0x F 
+Engine Overrun State Id[14] off: 3, len: 1, mul: 1, div: 16,  add: 0, mask:0x F0 
+Knock State Id[14] off: 4, len: 1, mul: 1, div: 1,  add: 0, mask:0x F 
+Fuel Purge State Id[14] off: 4, len: 1, mul: 1, div: 16,  add: 0, mask:0x F0 
+Fuel Closed Loop State Id[14] off: 5, len: 1, mul: 1, div: 1,  add: 0, mask:0x F 
+Throttle Aim State Id[14] off: 5, len: 1, mul: 1, div: 16,  add: 0, mask:0x F0 
+Gear Id[14] off: 6, len: 1, mul: 1, div: 1,  add: 0, mask:0x F 
+Engine Speed Reference State Id[14] off: 6, len: 1, mul: 1, div: 16,  add: 0, mask:0x F0 
+Engine Speed Limit State Id[14] off: 7, len: 1, mul: 1, div: 1,  add: 0, mask:0x FF 
+Launch Diagnostic Id[15] off: 0, len: 1, mul: 1, div: 1,  add: 0, mask:0x F 
+Anti Lag Diagnostic Id[15] off: 0, len: 1, mul: 1, div: 16,  add: 0, mask:0x F0 
+Fuel Cut State Id[15] off: 1, len: 1, mul: 1, div: 1,  add: 0, mask:0x F 
+Boost Control Diagnostic Id[15] off: 1, len: 1, mul: 1, div: 16,  add: 0, mask:0x F0 
+Fuel Closed Loop Diagnostic Id[15] off: 2, len: 1, mul: 1, div: 16,  add: 0, mask:0x F0 
+Gear Neutral Switch Id[15] off: 3, len: 1, mul: 1, div: 1,  add: 0, mask:0x 1 
+Engine Run Switch Id[15] off: 3, len: 1, mul: 1, div: 2,  add: 0, mask:0x 2 
+Anti Lag Switch Id[15] off: 3, len: 1, mul: 1, div: 4,  add: 0, mask:0x 4 
+Brake State Id[15] off: 3, len: 1, mul: 1, div: 8,  add: 0, mask:0x 8 
+Traction Switch Id[15] off: 3, len: 1, mul: 1, div: 16,  add: 0, mask:0x 10 
+Launch Switch Id[15] off: 3, len: 1, mul: 1, div: 32,  add: 0, mask:0x 20 
+Pit Switch Id[15] off: 3, len: 1, mul: 1, div: 64,  add: 0, mask:0x 40 
+Engine OilPressure Low Switch Id[15] off: 3, len: 1, mul: 1, div:128,  add: 0, mask:0x 80 
+Boost Limit Disable Switch Id[15] off: 4, len: 1, mul: 1, div: 16,  add: 0, mask:0x 10 
+Throttle Pedal Translation Sw Id[15] off: 5, len: 1, mul: 1, div: 32,  add: 0, mask:0x 20 
+Race Time Reset Switch Id[15] off: 5, len: 1, mul: 1, div: 64,  add: 0, mask:0x 40 
+Engine Run Hours Total Id[16] off: 0, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Fuel Closed Loop Ctrl B1 Trim Id[16] off: 2, len: 1, mul: 5, div: 1,  add:-1000, mask:0x FF 
+Fuel Closed Loop Ctrl B2 Trim Id[16] off: 3, len: 1, mul: 5, div: 1,  add:-1000, mask:0x FF 
+Transmission Temperature Id[16] off: 4, len: 1, mul: 10, div: 1,  add:-400, mask:0x FF 
+Fuel Tank Level Id[16] off: 5, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+M1 General 0x640 Version No Id[16] off: 7, len: 1, mul: 1, div: 1,  add: 0, mask:0x FF 
+Engine Speed Id[1] off: 0, len: 2, mul: 1, div: 6,  add: 0, mask:0xFFFF
+Page 7. 
+MoTeC C125 Dash Manager - test Channel Summary Report 
+Inlet Manifold Pressure Id[1] off: 2, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Inlet Air Temperature Id[1] off: 4, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Throttle Position Id[1] off: 6, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Fuel Volume Id[2] off: 0, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Fuel Mixture Aim Id[2] off: 2, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Fuel Pressure Sensor Id[2] off: 4, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Fuel Inj Primary Duty Cycle Id[2] off: 6, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+Engine Efficiency Id[2] off: 7, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+Throttle Pedal Id[3] off: 0, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Engine Load Id[3] off: 2, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Ignition Timing Id[3] off: 4, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Fuel Timing Primary Id[3] off: 6, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Ignition Cyl 1 Knock Level Id[4] off: 0, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+Ignition Cyl 2 Knock Level Id[4] off: 1, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+Ignition Cyl 3 Knock Level Id[4] off: 2, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+Ignition Cyl 4 Knock Level Id[4] off: 3, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+Ignition Cyl 5 Knock Level Id[4] off: 4, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+Ignition Cyl 6 Knock Level Id[4] off: 5, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+Ignition Cyl 7 Knock Level Id[4] off: 6, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+Ignition Cyl 8 Knock Level Id[4] off: 7, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+Ignition Output Cut Count Id[5] off: 0, len: 1, mul: 1, div: 1,  add: 0, mask:0x FF 
+Fuel Output Cut Count Id[5] off: 1, len: 1, mul: 1, div: 1,  add: 0, mask:0x FF 
+Ignition Output Cut Average Id[5] off: 2, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+Fuel Output Cut Average Id[5] off: 3, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+Fuel Cyl1 Prim Pulse Width 1 Id[5] off: 4, len: 1, mul:100, div: 1,  add: 0, mask:0x FF 
+Ignition Cut State Id[5] off: 5, len: 1, mul: 1, div: 1,  add: 0, mask:0x F 
+Ignition Timing State Id[5] off: 5, len: 1, mul: 1, div: 16,  add: 0, mask:0x F0 
+Engine Oil Pressure Id[5] off: 6, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Boost Pressure Id[6] off: 0, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Boost Aim Id[6] off: 2, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Boost Actuator Duty Cycle Id[6] off: 6, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+Gear Lever Force Sensor Id[6] off: 7, len: 1, mul:5000, div: 98,  add: 0, mask:0x FF 
+Inlet Camshaft Aim Id[7] off: 0, len: 2, mul: 1, div: 1, 
+Page 8. 
+MoTeC C125 Dash Manager - test Channel Summary Report 
+add: 0, mask:0xFFFF 
+Inlet Camshaft Bank1 Position Id[7] off: 2, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Inlet Camshaft Bank2 Position Id[7] off: 4, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Inlet Cam Bank1 Duty Cycle Id[7] off: 6, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+Inlet Cam Bank2 Duty Cycle Id[7] off: 7, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+Exhaust Camshaft Aim Id[8] off: 0, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Exhaust Camshaft Bank1 Pos Id[8] off: 2, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Exhaust Camshaft Bank2 Pos Id[8] off: 4, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Exhaust Cam Bank1 Duty Cycle Id[8] off: 6, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+Exhaust Cam Bank2 Duty Cycle Id[8] off: 7, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+Wheel Speed FL Id[9] off: 0, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Wheel Speed FR Id[9] off: 2, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Wheel Speed RL Id[9] off: 4, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Wheel Speed RR Id[9] off: 6, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Bus 2 (2) M1_General_0x650_Version 5 
+Generates Channels From  
+CAN Comms Diag 0x650 Diagnostic  
+Received Channels 
+Generates Channels From  
+Ignition Cyl 9 Knock Level Id[10] off: 0, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+Ignition Cyl 10 Knock Level Id[10] off: 1, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+Ignition Cyl 11 Knock Level Id[10] off: 2, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+Ignition Cyl 12 Knock Level Id[10] off: 3, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+Vehicle Speed Id[10] off: 4, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Ignition Cyl 9 Trim Knock Id[11] off: 0, len: 1, mul: 1, div: 1,  add: 0, mask:0x FF 
+Ignition Cyl 10 Trim Knock Id[11] off: 1, len: 1, mul: 1, div: 1,  add: 0, mask:0x FF 
+Ignition Cyl 11 Trim Knock Id[11] off: 2, len: 1, mul: 1, div: 1,  add: 0, mask:0x FF 
+Ignition Cyl 12 Trim Knock Id[11] off: 3, len: 1, mul: 1, div: 1,  add: 0, mask:0x FF 
+M1 General 0x650 Version No Id[11] off: 4, len: 1, mul: 1, div: 1,  add: 0, mask:0x FF 
+Lap Time Id[12] off: 0, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Running Lap Time Id[12] off: 2, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Lap Number Id[12] off: 4, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Lap Distance Id[12] off: 6, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Differential Temperature Id[13] off: 0, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF
+Page 9. 
+MoTeC C125 Dash Manager - test Channel Summary Report 
+Driver Rotary Switch 7 Id[13] off: 2, len: 1, mul: 1, div: 1,  add: 0, mask:0x FF 
+Driver Rotary Switch 8 Id[13] off: 3, len: 1, mul: 1, div: 1,  add: 0, mask:0x FF 
+Brake Temp FL Id[14] off: 0, len: 2, mul: 1, div: 10,  add: 0, mask:0xFFFF 
+Brake Temp FR Id[14] off: 2, len: 2, mul: 1, div: 10,  add: 0, mask:0xFFFF 
+Brake Temp RL Id[14] off: 4, len: 2, mul: 1, div: 10,  add: 0, mask:0xFFFF 
+Brake Temp RR Id[14] off: 6, len: 2, mul: 1, div: 10,  add: 0, mask:0xFFFF 
+Exhaust Pressure Bank 1 Id[15] off: 0, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Exhaust Pressure Bank 2 Id[15] off: 2, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Engine Crankcase Pressure Id[15] off: 4, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Alternator Current Id[15] off: 6, len: 2, mul: 1, div: 10,  add: 0, mask:0xFFFF 
+Knock Threshold Id[16] off: 0, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Logging System 1 Used Id[16] off: 2, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Vehicle Speed Limit Pit Limit Id[16] off: 4, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Driver Rotary Switch 1 Id[1] off: 0, len: 1, mul: 1, div: 1,  add: 0, mask:0x FF 
+Driver Rotary Switch 2 Id[1] off: 1, len: 1, mul: 1, div: 1,  add: 0, mask:0x FF 
+Driver Rotary Switch 3 Id[1] off: 2, len: 1, mul: 1, div: 1,  add: 0, mask:0x FF 
+Driver Rotary Switch 4 Id[1] off: 3, len: 1, mul: 1, div: 1,  add: 0, mask:0x FF 
+Driver Rotary Switch 5 Id[1] off: 4, len: 1, mul: 1, div: 1,  add: 0, mask:0x FF 
+Driver Rotary Switch 6 Id[1] off: 5, len: 1, mul: 1, div: 1,  add: 0, mask:0x FF 
+Driver Switch 8 Id[1] off: 7, len: 1, mul: 1, div: 1,  add: 0, mask:0x 1 
+Driver Switch 7 Id[1] off: 7, len: 1, mul: 1, div: 2,  add: 0, mask:0x 2 
+Driver Switch 6 Id[1] off: 7, len: 1, mul: 1, div: 4,  add: 0, mask:0x 4 
+Driver Switch 5 Id[1] off: 7, len: 1, mul: 1, div: 8,  add: 0, mask:0x 8 
+Driver Switch 4 Id[1] off: 7, len: 1, mul: 1, div: 16,  add: 0, mask:0x 10 
+Driver Switch 3 Id[1] off: 7, len: 1, mul: 1, div: 32,  add: 0, mask:0x 20 
+Driver Switch 2 Id[1] off: 7, len: 1, mul: 1, div: 64,  add: 0, mask:0x 40 
+Driver Switch 1 Id[1] off: 7, len: 1, mul: 1, div:128,  add: 0, mask:0x 80 
+Exhaust Lambda Id[2] off: 0, len: 1, mul: 1, div: 1,  add: 0, mask:0x FF 
+Exhaust Lambda Bank 1 Id[2] off: 2, len: 1, mul: 1, div: 1,  add: 0, mask:0x FF 
+Exhaust Lambda Bank 2 Id[2] off: 3, len: 1, mul: 1, div: 1,  add: 0, mask:0x FF 
+Exhaust Temp Bank 1 Id[2] off: 4, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Exhaust Temp Bank 2 Id[2] off: 6, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Fuel Inj Sec Contribution Id[3] off: 0, len: 2, mul: 1, div: 1, 
+Page 10. 
+MoTeC C125 Dash Manager - test Channel Summary Report 
+add: 0, mask:0xFFFF 
+Fuel Timing Secondary Id[3] off: 2, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Fuel Inj Secondary Duty Cycle Id[3] off: 4, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+Fuel Pres Direct Id[4] off: 0, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Fuel Pres Direct Aim Id[4] off: 2, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Fuel Pres Direct Ctrl Id[4] off: 4, len: 1, mul: 5, div: 1,  add: 0, mask:0x FF 
+Fuel Pres Direct Ctrl FF Id[4] off: 5, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+Fuel Pres Direct Ctrl Prop Id[4] off: 6, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+Fuel Pres Direct Ctrl Int Id[4] off: 7, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+Fuel Pres Direct B2 Id[5] off: 0, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Fuel Pres Direct B2 Aim Id[5] off: 2, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Fuel Pres Direct B2 Ctrl Id[5] off: 4, len: 1, mul: 5, div: 1,  add: 0, mask:0x FF 
+Fuel Pres Direct B2 Ctrl FF Id[5] off: 5, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+Fuel Pres Direct B2 Ctrl Prop Id[5] off: 6, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+Fuel Pres Direct B2 Ctrl Int Id[5] off: 7, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+Brake Pressure Front Id[6] off: 0, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Brake Pressure Rear Id[6] off: 2, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Coolant Pressure Id[6] off: 4, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Steering Pressure Id[6] off: 6, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Steering Angle Id[7] off: 0, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Inlet Mass Flow Id[7] off: 2, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Airbox Mass Flow Id[7] off: 4, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Fuel Flow Id[7] off: 6, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Fuel Inj Primary Press Id[8] off: 0, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Fuel Inj Secondary Press Id[8] off: 2, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Gear Input Shaft Speed Id[8] off: 4, len: 2, mul: 1, div: 6,  add: 0, mask:0xFFFF 
+Gear Output Shaft Speed Id[8] off: 6, len: 2, mul: 1, div: 6,  add: 0, mask:0xFFFF 
+Vehicle Accel Lateral Id[9] off: 0, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Vehicle Accel Long Id[9] off: 2, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Vehicle Accel Vert Id[9] off: 4, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Vehicle Yaw Rate Id[9] off: 6, len: 2, mul: 50, div: 18,  add: 0, mask:0xFFFF 
+Bus 2 (3) M1_General_0x670_Version 1 
+Received Channels
+Page 11. 
+MoTeC C125 Dash Manager - test Channel Summary Report 
+Generates Channels From  
+Fuel Comp Sensor Diag Id[1] off: 0, len: 1, mul: 1, div: 1,  add: 0, mask:0x F 
+Alt Fuel Mode Id[1] off: 0, len: 1, mul: 1, div: 16,  add: 0, mask:0x F0 
+Alt Fuel Timing Prim Blend Id[1] off: 1, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+Alt Fuel Timing Sec Blend Id[1] off: 2, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+Alt Fuel Ign Timing Blend Id[1] off: 3, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+Alt Fuel Mix Aim Blend Id[1] off: 4, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+Fuel Composition Id[1] off: 5, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+Alt Fuel Ign Timing Id[1] off: 6, len: 1, mul:-10, div: 2,  add: 0, mask:0x FF 
+Alt Fuel Timing Prim Id[2] off: 0, len: 2, mul: -1, div: 1,  add: 0, mask:0xFFFF 
+Alt Fuel Timing Sec Id[2] off: 2, len: 2, mul: -1, div: 1,  add: 0, mask:0xFFFF 
+Alt Fuel Mix Aim Id[2] off: 4, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Alt Fuel Pressure Sensor Id[3] off: 0, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Alt Fuel Temperature Id[3] off: 2, len: 1, mul: 10, div: 1,  add:-400, mask:0x FF 
+Alt Fuel Cont Efficiency Id[3] off: 3, len: 1, mul: 10, div: 1,  add: 0, mask:0x FF 
+Alt Fuel Pump Active Id[3] off: 4, len: 1, mul: 1, div: 1,  add: 0, mask:0x 1 
+Alt Fuel Press Warning Id[3] off: 4, len: 1, mul: 1, div: 2,  add: 0, mask:0x 2 
+Alt Fuel Pump State Id[3] off: 4, len: 1, mul: 1, div: 16,  add: 0, mask:0x F0 
+Bus 2 (4) M1_General_0x6A0_Version 1 
+Generates Channels From  
+CAN Comms Diag 0x6A0 Diagnostic  
+Received Channels 
+Generates Channels From  
+Aux Output 1 Duty Cycle Id[1] off: 0, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Aux Output 2 Duty Cycle Id[1] off: 2, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Aux Output 3 Duty Cycle Id[1] off: 4, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Aux Output 4 Duty Cycle Id[1] off: 6, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Aux Output 5 Duty Cycle Id[2] off: 0, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+M1 General 0x6A0 Version No Id[6] off: 0, len: 1, mul: 1, div: 1,  add: 0, mask:0x FF 
+Turbo Bank 1 Speed Id[7] off: 0, len: 2, mul: 10, div: 6,  add: 0, mask:0xFFFF 
+Turbo Bank 1 Temp Inlet Id[7] off: 2, len: 1, mul: 1, div: 1,  add:-40, mask:0x FF 
+Turbo Bank 1 Temp Outlet Id[7] off: 3, len: 1, mul: 1, div: 1,  add:-40, mask:0x FF 
+Turbo Bank 1 Pressure Inlet Id[7] off: 4, len: 2, mul: 1, div: 1,  add: 0, mask:0xFFFF 
+Turbo Bank 2 Speed Id[8] off: 0, len: 2, mul: 10, div: 6,  add: 0, mask:0xFFFF
+Page 12. 
+MoTeC C125 Dash Manager - test Channel Summary Report 
+Turbo Bank 2 Temp Inlet Id[8] off: 2, len: 1, mul: 1, div: 1,  add:-40, mask:0x FF 
+Turbo Bank 2 Temp Outlet Id[8] off: 3, len: 1, mul: 1, div: 1,  add:-40, mask:0x FF 
+Courier C125 
+Courier Generates Channels From  
+5V Aux Supply Pin 5VSEN Pinout Internal  
+8V Aux Supply Pin 8VSEN Pinout Internal  
+Reset Button Pin DIG1 Pinout 14  
+Next Button Pin DIG2 Pinout 15  
+Bat Volts Dash Pin INT BAT Pinout Internal  
+G Force Lat Pin INT LAT G Pinout Internal  G Force Long Pin INT LONG G Pinout Internal  Dash Temp Pin INT TEMP Pinout Internal  
+G Force Vert Pin INT VERT G Pinout Internal  Mode Button Pin SPD1 Pinout 21  
+Brightness Switch Pin SPD3 Pinout 23  
+Calculations 
+Lap Time & Number 
+Generates Channels From  
+Beacon GPS beacon  
+Speed/Distance 
+Ground Speed 
+Uses Channels For  
+GPS Speed Input 1  
+Generates Channels From  
+Ground Speed Output  
+Drive Speed 
+Uses Channels For  
+GPS Speed Input 1  
+Generates Channels From  
+Drive Speed Output  
+Courier N Uses Channels For  
+Ground Speed Ground speed  
+Generates Channels From  
+Odometer Odometer  
+Lap Gain/Loss 
+Uses Channels For  
+Lap Distance Lap distance  
+Running Lap Time Running lap time  
+Reference Lap Time Reset Running lap time reset  
+Generates Channels From  
+Lap Time Predicted Estimated lap time  
+Lap Gain/Loss Final Final difference  
+Reference Lap Time Reference lap time  
+Lap Gain/Loss Running Running difference  
+Tables
+Page 13. 
+MoTeC C125 Dash Manager - test Channel Summary Report 
+3D 
+1. Gear Detect Value 
+Uses Channels For  
+Drive Speed X axis input  
+Engine Speed Y axis input  
+Generates Channels From  
+Gear Detect Value Output  
+Timers 
+1. Session Time 
+Uses Channels For  
+Session Time Start condition 1 first input  Session Reset Stop condition 1 first input  
+Generates Channels From  
+Session Time Count  
+Courier Uses Channels For  
+Ground Speed Input speed  
+Generates Channels From  
+Max Straight Speed Maximum straight speed  Min Corner Speed Minimum corner speed  
+User Conditions 
+1. Display Mode Change 
+Uses Channels For  
+Next Button Condition 1 first input  Mode Button Condition 2 first input  
+Generates Channels From  
+Display Mode Change Condition result  
+2. Display Next Line 
+Uses Channels For  
+Next Button Condition 1 first input  Next Button Condition 2 first input  Display Mode Change Condition 3 first input  
+Generates Channels From  
+Display Next Line Condition result  
+3. Reference Lap Time Reset 
+Uses Channels For  
+Reset Button Condition 1 first input  
+Generates Channels From  
+Reference Lap Time Reset Condition result  
+4. Session Reset 
+Uses Channels For  
+Reset Button Condition 1 first input  
+Generates Channels From  
+Session Reset Condition result  
+5. Alarm Acknowledge 
+Uses Channels For  
+Reset Button Condition 1 first input  Reset Button Condition 2 first input  Session Reset Condition 3 first input 
+Page 14. 
+MoTeC C125 Dash Manager - test Channel Summary Report 
+Generates Channels From  
+Alarm Acknowledge Condition result  
+Courier Ne Courier Uses Channels For  
+Engine Speed Start condition 1 first input  Engine Speed Stop condition 1 first input  
+Generates Channels From  
+Log Memory Busy Busy  
+CPU Usage CPU usage  
+Log Data Available Data available  
+Logging Running Running  
+Log Time Remaining Time remaining  
+Log Unloading Unloading  
+Device Up Time Uptime  
+Normal 
+Uses Channels For  
+G Force Lat item 1, 25 times/second  Running Lap Time item 10, once/second  Lap Time Predicted item 11, once/second  GPS Sats Used item 12, 20 times/second  GPS Altitude item 13, 20 times/second  GPS Latitude item 14, 20 times/second  GPS Longitude item 15, 20 times/second  GPS Heading item 16, 20 times/second  GPS Time item 17, 20 times/second  GPS Date item 18, 20 times/second  GPS Speed item 19, 20 times/second  G Force Long item 2, 25 times/second  Reference Lap Time item 20, once/second  Device Up Time item 21, once/second  Odometer item 22, once/second  Boost Pressure item 23, 10 times/second  Comms RS232-2 Diag item 24, 20 times/second  Airbox Temperature item 25, 10 times/second  Bat Volts ECU item 26, 20 times/second  Engine Oil Pressure item 27, 10 times/second  Engine Oil Temperature item 28, 10 times/second  Engine Speed item 29, 10 times/second  G Force Vert item 3, 25 times/second  Coolant Temperature item 30, 10 times/second  Fuel Pressure Sensor item 31, 10 times/second  Fuel Temperature item 32, 10 times/second  Fuel Used M1 item 33, 10 times/second  Ignition Timing item 34, 10 times/second  Inlet Manifold Pressure item 35, 10 times/second  Throttle Position item 36, 10 times/second  Gear item 37, 10 times/second  Inlet Air Temperature item 38, 10 times/second  Throttle Pedal item 39, 10 times/second  Beacon item 4, once/second  Gear Detect Value item 40, 5 times/second  Dash Temp item 41, once/second  Bat Volts Dash item 42, 25 times/second  Fuel Inj Primary Duty Cycle item 43, 10 times/second  Ground Speed item 5, 20 times/second  Lap Distance item 6, once/second  Lap Time item 7, once/second  Lap Gain/Loss Running item 8, once/second  Lap Number item 9, once/second 
+Page 15. 
+MoTeC C125 Dash Manager - test Channel Summary Report 
+Courier Courier Uses Channels For  
+Display Mode Change mode  
+Display Next Line next  
+RACE 
+Uses Channels For  
+Lap Gain/Loss Running Bar 1  
+Bat Volts Dash Bar 2  
+Running Lap Time Bottom line 1 value 1  Lap Gain/Loss Running Bottom line 1 value 2  Lap Time Bottom line 1 value 3  Min Corner Speed Bottom line 2 value 1  Lap Gain/Loss Running Bottom line 2 value 2  Max Straight Speed Bottom line 2 value 3  Inlet Manifold Pressure Bottom line 3 value 1  Engine Oil Temperature Bottom line 3 value 2  Airbox Temperature Bottom line 3 value 3  Gear Detect Value Bottom line 4 value 2  Reference Lap Time Bottom override line 1 value 1  
+Lap Gain/Loss Final Bottom override line 1 value 2  Lap Time Bottom override line 1 value 3  Engine Speed Gauge input  
+Gear Gear  
+Coolant Temperature Number 1 numeric Default  Engine Oil Pressure Number 2 numeric Default  Ground Speed Number 3 numeric Default  Session Time Number 4 numeric Default  Lap Number Number 5 numeric Default  Bat Volts Dash Number 6 numeric Default  
+Courier N Uses Channels For  
+Lap Gain/Loss Running Bar 1  
+Bat Volts Dash Bar 2  
+Running Lap Time Bottom line 1 value 1  Lap Gain/Loss Running Bottom line 1 value 2  Lap Time Bottom line 1 value 3  Min Corner Speed Bottom line 2 value 1  Lap Gain/Loss Running Bottom line 2 value 2  Max Straight Speed Bottom line 2 value 3  Inlet Manifold Pressure Bottom line 3 value 1  Engine Oil Temperature Bottom line 3 value 2  Airbox Temperature Bottom line 3 value 3  Gear Detect Value Bottom line 4 value 2  Reference Lap Time Bottom override line 1 value 1  
+Lap Gain/Loss Final Bottom override line 1 value 2  Lap Time Bottom override line 1 value 3  Engine Speed Gauge input  
+Gear Gear  
+Coolant Temperature Number 1 numeric Default  Engine Oil Pressure Number 2 numeric Default  Ground Speed Number 3 numeric Default  Session Time Number 4 numeric Default  Lap Number Number 5 numeric Default  Bat Volts Dash Number 6 numeric Default  
+WARMUP 
+Uses Channels For  
+Coolant Temperature Bar 1  
+Bat Volts Dash Bar 2  
+Coolant Temperature Bottom line 1 value 1  Engine Speed Bottom line 1 value 2  Bat Volts Dash Bottom line 1 value 3  Throttle Position Bottom line 2 value 1  Engine Oil Pressure Bottom line 2 value 2 
+Page 16. 
+MoTeC C125 Dash Manager - test Channel Summary Report 
+Ignition Timing Bottom line 2 value 3  Inlet Manifold Pressure Bottom line 3 value 1  Engine Oil Temperature Bottom line 3 value 2  Airbox Temperature Bottom line 3 value 3  GPS Sats Used Bottom line 4 value 1  GPS Time Bottom line 4 value 3  G Force Lat Bottom line 5 value 1  G Force Long Bottom line 5 value 2  G Force Vert Bottom line 5 value 3  Dash Temp Bottom line 6 value 1  Reference Lap Time Bottom line 6 value 3  Engine Speed Gauge input  
+Gear Gear  
+Courier Ne Uses Channels For  
+Brightness Switch brightness input  
+Alarms 
+Uses Channels For  
+Alarm Acknowledge Acknowledge button  
+Generates Channels From  
+Warning Light Warning  
+1. Ref Lap Reset 
+Uses Channels For  
+Reference Lap Time Reset Condition 1 first input  
+2. Session Reset 
+Uses Channels For  
+Session Reset Condition 1 first input  
+3. OVER RPM 
+Uses Channels For  
+Engine Speed Condition 1 first input  
+4. ENGINE HOT 
+Uses Channels For  
+Coolant Temperature Condition 1 first input  Coolant Temperature Message value  
+5. BATTERY LOW 
+Uses Channels For  
+Bat Volts Dash Condition 1 first input  Engine Speed Condition 2 first input  Bat Volts Dash Message value  
+Shift Lights 
+Uses Channels For  
+Engine Speed Input RPM  
+Up 
+Generates Channels From  
+Up Shift Light 1 Upshift light 1  Up Shift Light 2 Upshift light 2  Up Shift Light 3 Upshift light 3  
+Shift Light Modules 
+Shift Light Module 1 
+Uses Channels For  
+Brightness Switch Brightness 
+Page 17. 
+MoTeC C125 Dash Manager - test Channel Summary Report 
+Courier Ne Uses Channels For  Warning Light Input  
+Courier Ne Uses Channels For  Up Shift Light 3 Input  
+Courier Ne Uses Channels For  Up Shift Light 2 Input  
+Courier Ne Uses Channels For  Up Shift Light 1 Input  
+Incomplete Channels  
+*** None *** 
+Unused Channels  
+CAN Comms Diag 0x640 
+Fuel Volume 
+Fuel Mixture Aim 
+Engine Efficiency 
+Engine Load 
+Fuel Timing Primary 
+Ignition Cyl 1 Knock Level 
+Ignition Cyl 2 Knock Level 
+Ignition Cyl 3 Knock Level 
+Ignition Cyl 4 Knock Level 
+Ignition Cyl 5 Knock Level 
+Ignition Cyl 6 Knock Level 
+Ignition Cyl 7 Knock Level 
+Ignition Cyl 8 Knock Level 
+Ignition Output Cut Count 
+Fuel Output Cut Count 
+Ignition Output Cut Average 
+Fuel Output Cut Average 
+Fuel Cyl1 Prim Pulse Width 1 
+Ignition Timing State 
+Ignition Cut State 
+Boost Aim 
+Boost Actuator Duty Cycle 
+Gear Lever Force Sensor 
+Inlet Camshaft Aim 
+Inlet Camshaft Bank1 Position 
+Inlet Camshaft Bank2 Position 
+Inlet Cam Bank1 Duty Cycle 
+Inlet Cam Bank2 Duty Cycle 
+Exhaust Camshaft Aim 
+Exhaust Camshaft Bank1 Pos 
+Exhaust Camshaft Bank2 Pos 
+Exhaust Cam Bank1 Duty Cycle 
+Exhaust Cam Bank2 Duty Cycle 
+Wheel Speed FL 
+Wheel Speed FR 
+Wheel Speed RL 
+Wheel Speed RR 
+Ambient Temperature 
+Exhaust Temperature 
+Engine Load Average 
+Engine Speed Limit 
+Ambient Pressure 
+Ignition Cyl 1 Trim Knock 
+Ignition Cyl 2 Trim Knock 
+Ignition Cyl 3 Trim Knock
+Page 18. 
+MoTeC C125 Dash Manager - test Channel Summary Report 
+Ignition Cyl 4 Trim Knock Ignition Cyl 5 Trim Knock Ignition Cyl 6 Trim Knock Ignition Cyl 7 Trim Knock Ignition Cyl 8 Trim Knock Engine Run Time 
+ECU Uptime 
+Warning Source 
+Coolant Temperature Warning Coolant Pressure Warning Engine Speed Warning 
+Engine Oil Temp Warning Engine Oil Pressure Warning Crankcase Pressure Warning Fuel Pressure Warning 
+Knock Warning 
+Engine State 
+Fuel Pump State 
+Anti Lag State 
+Launch State 
+Boost Aim State 
+Engine Overrun State 
+Fuel State 
+Fuel Purge State 
+Knock State 
+Throttle Aim State 
+Fuel Closed Loop State Engine Speed Reference State Engine Speed Limit State Anti Lag Diagnostic 
+Launch Diagnostic 
+Boost Control Diagnostic Fuel Cut State 
+Fuel Closed Loop Diagnostic Engine OilPressure Low Switch Pit Switch 
+Launch Switch 
+Traction Switch 
+Brake State 
+Anti Lag Switch 
+Engine Run Switch 
+Gear Neutral Switch 
+Boost Limit Disable Switch Throttle Pedal Translation Sw Race Time Reset Switch Engine Run Hours Total Fuel Closed Loop Ctrl B1 Trim Fuel Closed Loop Ctrl B2 Trim Transmission Temperature Fuel Tank Level 
+M1 General 0x640 Version No CAN Comms Diag 0x650 
+Driver Rotary Switch 1 Driver Rotary Switch 2 Driver Rotary Switch 3 Driver Rotary Switch 4 Driver Rotary Switch 5 Driver Rotary Switch 6 Driver Switch 1 
+Driver Switch 2 
+Driver Switch 3 
+Driver Switch 4 
+Driver Switch 5 
+Driver Switch 6 
+Driver Switch 7
+Page 19. 
+MoTeC C125 Dash Manager - test Channel Summary Report 
+Driver Switch 8 
+Exhaust Lambda 
+Exhaust Lambda Bank 1 
+Exhaust Lambda Bank 2 
+Exhaust Temp Bank 1 
+Exhaust Temp Bank 2 
+Fuel Inj Sec Contribution Fuel Timing Secondary 
+Fuel Inj Secondary Duty Cycle Fuel Pres Direct 
+Fuel Pres Direct Aim 
+Fuel Pres Direct Ctrl 
+Fuel Pres Direct Ctrl FF Fuel Pres Direct Ctrl Prop Fuel Pres Direct Ctrl Int Fuel Pres Direct B2 
+Fuel Pres Direct B2 Aim Fuel Pres Direct B2 Ctrl Fuel Pres Direct B2 Ctrl FF Fuel Pres Direct B2 Ctrl Prop Fuel Pres Direct B2 Ctrl Int Brake Pressure Front 
+Brake Pressure Rear 
+Coolant Pressure 
+Steering Pressure 
+Steering Angle 
+Inlet Mass Flow 
+Airbox Mass Flow 
+Fuel Flow 
+Fuel Inj Primary Press Fuel Inj Secondary Press Gear Input Shaft Speed Gear Output Shaft Speed Vehicle Accel Lateral 
+Vehicle Accel Long 
+Vehicle Accel Vert 
+Vehicle Yaw Rate 
+Ignition Cyl 9 Knock Level Ignition Cyl 10 Knock Level Ignition Cyl 11 Knock Level Ignition Cyl 12 Knock Level Vehicle Speed 
+Ignition Cyl 9 Trim Knock Ignition Cyl 10 Trim Knock Ignition Cyl 11 Trim Knock Ignition Cyl 12 Trim Knock M1 General 0x650 Version No Differential Temperature Driver Rotary Switch 7 Driver Rotary Switch 8 Brake Temp FL 
+Brake Temp FR 
+Brake Temp RL 
+Brake Temp RR 
+Exhaust Pressure Bank 1 Exhaust Pressure Bank 2 Engine Crankcase Pressure Alternator Current 
+Knock Threshold 
+Logging System 1 Used 
+Vehicle Speed Limit Pit Limit Alt Fuel Mode 
+Fuel Comp Sensor Diag 
+Alt Fuel Timing Prim Blend Alt Fuel Timing Sec Blend
+Page 20. 
+MoTeC C125 Dash Manager - test Channel Summary Report 
+Alt Fuel Ign Timing Blend Alt Fuel Mix Aim Blend Fuel Composition 
+Alt Fuel Ign Timing 
+Alt Fuel Timing Prim 
+Alt Fuel Timing Sec 
+Alt Fuel Mix Aim 
+Alt Fuel Pressure Sensor Alt Fuel Temperature 
+Alt Fuel Cont Efficiency Alt Fuel Pump State 
+Alt Fuel Press Warning Alt Fuel Pump Active 
+CAN Comms Diag 0x6A0 
+Aux Output 1 Duty Cycle Aux Output 2 Duty Cycle Aux Output 3 Duty Cycle Aux Output 4 Duty Cycle Aux Output 5 Duty Cycle M1 General 0x6A0 Version No 
+Turbo Bank 1 Speed 
+Turbo Bank 1 Temp Inlet Turbo Bank 1 Temp Outlet Turbo Bank 1 Pressure Inlet Turbo Bank 2 Speed 
+Turbo Bank 2 Temp Inlet Turbo Bank 2 Temp Outlet 5V Aux Supply 
+8V Aux Supply 
+Log Time Remaining 
+Log Data Available 
+Log Unloading 
+Logging Running 
+Log Memory Busy 
+CPU Usage
+Page 21.
