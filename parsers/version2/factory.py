@@ -1,6 +1,4 @@
 #!/usr/bin/env python3
-
-
 class Factory:
     def __init__(self, datasheet, destination, sections):
         self.datasheet:str = datasheet
@@ -32,13 +30,20 @@ class Factory:
             return True
         
     def produce(self, *functions) -> None:
+        testCalls = []
         with open(self.destination, 'w') as writer:
             writer.write("#!/usr/bin/env python3\n")
-            writer.write("class ParsePackage:\n\tpass\n\n")
-            # stuff
-            writer.write("class TestPackage:\n\tpass\n\n")
-            # stuff
-            writer.write("if __name__ == \"__main__\":\n\tTestPackage.runAll()")
+            writer.write("class ParsePackage:\n")
+            for function in functions:
+                writer.write(f"\tdef _parse_{function}(self, can_data:dict) -> dict:\n\t\tpass\n\n")
+            writer.write("class TestPackage:\n")
+            for test in functions:
+                writer.write(f"\tdef _test_{test}(self):\n\t\tpass\n\n")
+                testCalls.append(f"self._test_{test}()")
+            writer.write("\tdef runAll(self):\n")
+            for call in testCalls:
+                writer.write(f"\t\t{call}\n")
+            writer.write("\nif __name__ == \"__main__\":\n\tTestPackage.runAll()")
 
 if __name__ == "__main__":
     print(".")
@@ -49,8 +54,8 @@ if __name__ == "__main__":
                "Alarms", "Incomplete Channels", "Unused Channels")
     test = Factory(ref, draft, headers)
     test.specify()
-    [print(item, len(test.specs[item])) for item in test.specs]
-    test.produce("RS232", "CAN")
+    #[print(item, len(test.specs[item])) for item in test.specs]
+    test.produce("RX_GPS", "BUS_1", "BUS_2", "BUS_3", "BUS_4")
 
 '''
 Currently the template needs to...
