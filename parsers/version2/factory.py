@@ -5,7 +5,7 @@ class Factory:
         self.destination:str = destination
         self.sections:tuple[str] = sections
         self.specs:dict[str, list[str]] = {}
-    def specify(self) -> bool:
+    def specify(self, *bounds) -> bool:
         self.specs = {section: [] for section in self.sections}
         try:
             with open(self.datasheet, 'r') as reader:
@@ -27,6 +27,10 @@ class Factory:
             penultimate:int = lines.index(self.sections[-1])
             final:int = len(lines)
             self.specs[self.sections[-1]] = lines[penultimate:final]
+            
+            #start:int = self.specs.index(bounds[0])
+            #end:int = self.specs.index(bounds[1])
+            #self.specs = self.specs[start:end]
             return True
         
     def produce(self, *functions) -> None:
@@ -35,7 +39,9 @@ class Factory:
             writer.write("#!/usr/bin/env python3\n")
             writer.write("class ParsePackage:\n")
             for function in functions:
-                writer.write(f"\tdef _parse_{function}(self, can_data:dict) -> dict:\n\t\tpass\n\n")
+                writer.write(f"\tdef _parse_{function}(self, can_data:dict) -> dict:\n")
+                writer.write(f"\t\t\'Parse __ data from {function}\'\n")
+                writer.write("\t\tpass\n\n")
             writer.write("class TestPackage:\n")
             for test in functions:
                 writer.write(f"\tdef _test_{test}(self):\n\t\tpass\n\n")
@@ -53,9 +59,10 @@ if __name__ == "__main__":
                "RS232", "CAN", "Courier C125", "Calculations", "User Conditions",
                "Alarms", "Incomplete Channels", "Unused Channels")
     test = Factory(ref, draft, headers)
-    test.specify()
+    test.specify("RX_GPS", "Courier C125")
     #[print(item, len(test.specs[item])) for item in test.specs]
     test.produce("RX_GPS", "BUS_1", "BUS_2", "BUS_3", "BUS_4")
+    [print(k,test.specs[k], sep='\n') for k in test.specs]
 
 '''
 Currently the template needs to...
