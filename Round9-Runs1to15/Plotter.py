@@ -44,8 +44,8 @@ class Interpreter:
         except Exception as e:
             print(f"Interpreter: Unknown error '{e}'")
         else:
-            self.header = lines[0].split(';')
-            #  lines[1] has not been designated a variable yet
+            self.header = lines[1].split(';')
+            #  lines[0] has not been designated a variable yet
             acronyms:list[str] = [entry for entry in lines[2].split()]
             self.data = {a: [] for a in acronyms}
 
@@ -64,8 +64,20 @@ Interpreter opened '{self.filepath}' with the following information:
 Parsing completed in {self.runtime} seconds.
 {'-'*25}'''
 
+class Plotter:
+    def __init__(self, labels, data):
+        self.labels:list[str] = labels
+        self.data:dict[str, list[float]] = data
+    def options(self):
+        return ', '.join(self.labels)
+    #def 
+
 if __name__ == "__main__":
     print(".")
-    path = "Round9-Runs1to15\B2356raw2.dat"
+    path = "B2356raw2.dat"  # Spyder reads relative links differently
     inter = Interpreter(path)
     print(inter.summary())
+    
+    print(len(inter.data))
+    plott = Plotter(inter.header, inter.data)
+    print(plott.options())
