@@ -102,5 +102,7 @@ MoTec C125 Dash Manager exports a configuration PDF, which I crudely imported in
 - While `setFileDictionary()` maintains read mode throughout the Error Handling code, it turns out write mode closed at the try block for `writeFunctionsAt()`
     - You'll notice, then, the latter function uses write mode AND append mode. A sly workaround, if I do say so myself.
     - Template code is closer to the writing function than `parser_factory`'s counterparts, which I hope allows for intuitive edits
+aaaand `__main__` is even more hard-coded... global variables omitted though (save for those established in `__main__`)
 
 ## Closing Notes
+[28/06/26] Factory v2 development closes without a working product, but the propogation was undeniably satisfying. Admittedly the factory project itself is intended to be a footnote in the grand scheme of ANUFS D&P. But the code is neat.
