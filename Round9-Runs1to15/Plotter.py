@@ -77,9 +77,10 @@ class Plotter:
     def chart(self):
         timer = Timer()
         timer.elapse()
-        self.data.plot(kind='scatter', x='ET', y='AmbTmp')
+        self.data.plot(kind='scatter', x='ET', y='AmbTmp', s=5)
         plt.yticks(np.arange(0, 50, 3))
         plt.xticks(np.arange(0, 150, 25))
+        plt.savefig("upgraded-dollop/Round9-Runs1to15/output.png")
         plt.show()
         print(f"Task completed in {round(timer.elapse(), 3)} seconds")
         return
