@@ -81,8 +81,18 @@ cd parsers/version2
 python3 factory.py  # Generate code based on sensors on converted motec.pdf
 python3 product.py  # Syntactically correct, but placeholders will create semantic errors at runtime
 ```
-## Parser Factory v1
+## Developing Parser Factory v1
+At the requirements gathering stage, a `.csv` Sensor Tracker was exported from a `.xlsx` file, in the interest of solutions without external modules. This presumes (.xlsx -> .csv) only loses formatting information, which later inspires the (.pdf -> .txt) export from Dash Manager's config PDF file.
 
-## Parser Factory v2
+`can_parsers` is archived in the `version1/` subdirectory to preserve an attempt to manually code all known functions. A memento to duplicated code frustrations, pain points to abstract, and the necessity of a factory program.
+
+`parser_module` is archived for similar reasons, now reorganizing the functional code into the classes `ParsePackage` and `TestPackage`. Initially this appeared to add needless complexity to factory development, but the added structure undoubtedly enhances readability. For enhanced code quality, this became an endgoal.
+
+`parser_factory` is the program of the hour. A careful balance of f-strings and File Handling code. Note that for file writing with multiline strings, `\t` is preferable to four space bars, as Python will penalize inconsistent spacing.
+- Tasks were decomposed into _reading table_, _defining relevant sensors_, _completing parser templates_, _designing functions_, and _designing classes_
+- `__main__` is very hard-coded, essentially everything that could not be guaranteed by decompositions and global variables
+    - Terminal output provides useful commentary on functions as they are called
+
+## Developing Parser Factory v2
 
 ## Closing Notes
