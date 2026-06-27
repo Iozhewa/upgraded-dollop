@@ -94,5 +94,13 @@ At the requirements gathering stage, a `.csv` Sensor Tracker was exported from a
     - Terminal output provides useful commentary on functions as they are called
 
 ## Developing Parser Factory v2
+MoTec C125 Dash Manager exports a configuration PDF, which I crudely imported into Google Docs before exporting out in TXT format. This is likely a technique not limited to Google Docs, but I the idea jumped at me from Drive.
+
+`template` is a closer-to-concept reference point from Telemetry Garage. The author themself doesn't leave hints to interpret MoTec addresses, which becomes a prevailing issue later on.
+
+`factory` is the program of the hour. It's got forced delays as I insisted the terminal output display identified sensors at a semi-readable print rate. 
+- While `setFileDictionary()` maintains read mode throughout the Error Handling code, it turns out write mode closed at the try block for `writeFunctionsAt()`
+    - You'll notice, then, the latter function uses write mode AND append mode. A sly workaround, if I do say so myself.
+    - Template code is closer to the writing function than `parser_factory`'s counterparts, which I hope allows for intuitive edits
 
 ## Closing Notes

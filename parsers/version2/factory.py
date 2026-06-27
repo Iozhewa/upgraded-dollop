@@ -62,7 +62,66 @@ class Factory:
             print(f"Factory: Unknown error {e}")
             return False
         else:
-            pass
-
+            print("Factory now writing. Identified the following measures:")
+            proceed = input(">> ")  # Useful for large-scale template programming
+            with open(self.filewrite, 'a') as writer:
+                counter:int = 1
+                writer.write("class ParsePackage:\n")
+                for f in functions:
+                    addresses = {}
+                    writer.write(f"\tdef _parse_{f}(data:dict) -> dict:\n")
+                    writer.write(f"\t\t\'Parses [context unknown] data from {f}\'\n")
+                    writer.write("\t\tresult = {\n")
+                    for spec in self.specs[functions[f]]:
+                        if ':' in spec:
+                            print(counter, spec.split("Id"))
+                            counter += 1
+                            s(0.05)
+                            label = spec.split("Id")[0]
+                            address = "Id" + ''.join(spec.split("Id"))
+                            addresses[label] = address
+                            writer.write(f"\t\t\t\"{label.strip()}\": 0,\n")
+                    writer.write("\t\t}\n")
+                    for label in addresses:
+                        #  Addressing method unknown, placeholder erroneous
+                        addr = ''.join([n for n in addresses[label] if n.isnumeric()])
+                        writer.write(f"\t\tif 0x{addr} in data:\n")
+                        writer.write(f"\t\t\tmsg = data[0x{addr}]\n")
+                        writer.write(f"\t\t\tdata = bytes.fromhex(msg[\"data\"])\n")
+                        writer.write(f"\t\t\tresult[\"{label.strip()}\"] = int.from_bytes(data[0:2], byteorder=\'little\')\n")
+                    writer.write("\n\t\treturn result\n\n")
+                
+                writer.write("class TestPackage:\n")
+                testCalls = []
+                for test in functions:
+                    writer.write(f"\tdef _test_{test}():\n")
+                    #  Expected behaviour currently undefined. Example, non-functional code supplied.
+                    writer.write(f"\t\ttestBytes = bytes([1, 2])\n")
+                    writer.write(f"\t\tresult = ParsePackage._parse_{test}(data=testBytes)\n")
+                    writer.write(f"\t\tprint(f\"{test} outputs:\", result)\n")
+                    writer.write(f"\t\tassert result == 1, \"Expected 1, got \" + result\n\n")
+                    testCalls.append(f"TestPackage._test_{test}()")
+                writer.write("\tdef runAll():\n")
+                for call in testCalls:
+                    writer.write(f"\t\t{call}\n")
+                writer.write("\nif __name__ == \"__main__\":\n\tTestPackage.runAll()")
+                
+                return True
+            
 if __name__ == "__main__":
     print(".")  # Terminal confirmation of execution
+    ref = r"parsers\version2\motec.txt"
+    draft = r"parsers\version2\product.py"
+    fileheaders = ("Summary Information", "Used Channels", "Channels By Function",
+               "RS232", "Bus 2 (1) M1_General_0x640_Version 5", "Bus 2 (2) M1_General_0x650_Version 5",
+               "Bus 2 (3) M1_General_0x670_Version 1", "Bus 2 (4) M1_General_0x6A0_Version 1", 
+               "Courier C125", "Calculations", "User Conditions",
+               "Alarms", "Incomplete Channels", "Unused Channels")
+    
+    facto = Factory(fileread=ref, filewrite=draft, sections=fileheaders)
+    facto.setFileDictionary()
+    facto.writeFunctionsAt(RX_GPS="RS232", 
+                 BUS_1="Bus 2 (1) M1_General_0x640_Version 5", 
+                 BUS_2="Bus 2 (2) M1_General_0x650_Version 5", 
+                 BUS_3="Bus 2 (3) M1_General_0x670_Version 1", 
+                 BUS_4="Bus 2 (4) M1_General_0x6A0_Version 1")
