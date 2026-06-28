@@ -50,7 +50,12 @@ class Factory:
             self.specs[self.sections[-1]] = lines[semifinal:final]
             return True
 
-    def writeFunctionAt(self, **functions) -> bool:
+    def writeFunctionsAt(self, **functions) -> bool:
+        '''
+        Finds self.filewrite and writes parser code. Explicitly organized into ParserPackage, the collection
+        of functions turning MoTec data into known values; and TestPackage, a starting point for quality assurance
+        of the ParserPackage class.
+        '''
         try:
             with open(self.filewrite, 'w') as writer:
                 writer.write("#!/usr/bin/env python3\n")
