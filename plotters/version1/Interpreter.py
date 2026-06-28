@@ -56,6 +56,6 @@ Parsing completed in {self.runtime} seconds.
 
 if __name__ == "__main__":
     print(".")
-    path = r"Round9-Runs1to15\B2356raw2.dat"
+    path = r"plotters\version1\B2356raw2.dat"
     inter = Interpreter(path)
     print(inter.summary())
