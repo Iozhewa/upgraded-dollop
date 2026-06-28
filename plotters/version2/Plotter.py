@@ -33,4 +33,10 @@ class Plotter:
     
 if __name__ == "__main__":
     print(".")
-    # TODO
+    path = "upgraded-dollop/Round9-Runs1to15/B2356raw2.dat"  # Spyder reads relative links differently
+    interpreter = Interpreter(filepath=path)
+    print(interpreter.summary())
+
+    plotter = Plotter(interpreter.labels, interpreter.data)
+    print(plotter)
+    plotter.chart()
