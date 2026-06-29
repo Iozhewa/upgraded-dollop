@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from Timer.py import Timer
+import Timer
 
 class Interpreter:
     def __init__(self, filepath):
@@ -11,7 +11,7 @@ class Interpreter:
     def __str__(self):
         return f"Interpreter(path={self.filepath})"
     
-    def __parse(self, max_index, index_interval) -> bool:
+    def __parse(self, keyMeasure, roundTo) -> bool:
         try:
             timer = Timer()
             timer.elapse()

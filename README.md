@@ -1,6 +1,9 @@
 # upgraded-dollop
-Preliminary Tire ConsortiumData Analysis for ANUFS
+Data & Performance work for ANUFS.
+Overhead documentation unnecessary, explore a subdirectory for additional markdowns.
 
-As of writing, will likely only upload Round9-Runs1to15. Upload time per batch was a bit concerning.
+## Project 1: MoTec C125 Data Parser
+Takes a desktop app's config export and generates a Python executable based on MoTec specifications.
 
-Will genericize analysis programs to test with other data runs locally, though.
+## Project 2: Tyre Consortium 
+Takes a directory of tyre research data and generates PyPlot graphs for analysis.
