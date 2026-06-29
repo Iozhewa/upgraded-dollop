@@ -26,12 +26,13 @@ class Interpreter:
         else:
             self.labels:list[str] = [entry for entry in lines[1].split()]
             self.data = {l: [] for l in self.labels}
-            for index, line in enumerate(lines[3:]):
-                if index > max_index: break
-                if index % index_interval == 0:
-                    for index, datapoint in enumerate(line.split()):
+            for line in lines[3:]:
+                refPoint:int = self.labels.index(keyMeasure)
+                parseRef = float(line.split()[refPoint])
+                if abs(parseRef - round(parseRef, roundTo)) < 1e-6:
+                    for index, point in enumerate(line.split()):
                         key:str = self.labels[index]
-                        self.data[key].append(datapoint)
+                        self.data[key].append(float(point))
             self.runtime = timer.elapse()
             return True
     
