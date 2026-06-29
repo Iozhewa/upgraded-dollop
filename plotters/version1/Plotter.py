@@ -30,7 +30,7 @@ class Interpreter:
         self.filepath:str = filepath
         self.runtime:float = 0.0
         self.labels:list[str] = []
-        self.data:dict[str, list[float]] = []
+        self.data:dict[str, list[float]] = {}
     def __str__(self):
         return f"Interpreter(path={self.filepath})"
     

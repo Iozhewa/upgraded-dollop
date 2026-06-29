@@ -70,14 +70,14 @@ Presumably this is remedied on a case-to-case basis.
 
 Development on Factory v1 closes with a proof-of-concept. MoTec properties are assumed, resulting in an immediately executable product. 
 ``` bash
-cd parsers/version1
+cd version1
 python3 parser_factory.py  # Generate code based on sensors listed on CSV
 python3 parser_product.py  # Product tests mock parser functions
 ```
 
 Development on Factory v2 is more promising. The ratio of generated code to generating code is greater (331:184 < 1470:110) but the product ought to run in O(1) time. Smelly, unabstracted code, but accounting for hundreds of sensors with narrow margins of error.
 ``` bash
-cd parsers/version2
+cd version2
 python3 factory.py  # Generate code based on sensors on converted motec.pdf
 python3 product.py  # Syntactically correct, but placeholders will create semantic errors at runtime
 ```
