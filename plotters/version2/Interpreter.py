@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import Timer
+from Timer.py import Timer
 
 class Interpreter:
     def __init__(self, filepath):
@@ -28,7 +28,7 @@ class Interpreter:
             self.data = {l: [] for l in self.labels}
             for index, line in enumerate(lines[3:]):
                 if index > max_index: break
-                if index % 500 == 0:
+                if index % index_interval == 0:
                     for index, datapoint in enumerate(line.split()):
                         key:str = self.labels[index]
                         self.data[key].append(datapoint)
