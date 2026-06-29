@@ -10,13 +10,23 @@ class Plotter:
         self.measures:list[str] = measures
         self.data:object = pd.DataFrame(data)
         self.destination:str = destination
-        self.__yAxis = self.measures[0]
-        self.__xAxis = self.measures[1]
-        self.__yTicks = np.arange(0, 50, 3)
-        self.__xTicks = np.arange(0, 150, 25)
+        self.__xAxis:str = self.measures[0]
+        self.__yAxis:str = self.measures[1]
+        self.__xTicks:object = np.arange(0, 10, 2)
+        self.__yTicks:object = np.arange(0, 10, 2)
     
     def __str__(self):
         return f"Plotter(measures={','.join(self.measures)})"
+    
+    def setAxis(self, x:str, y:str) -> None:
+        self.__xAxis = x
+        self.__yAxis = y
+        return
+    
+    def setTicks(self, x:object, y:object) -> None:
+        self.__xTicks = x
+        self.__yTicks = y
+        return
 
     def chart(self):
         timer = Timer()

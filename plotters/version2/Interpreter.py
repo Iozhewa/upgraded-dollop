@@ -36,8 +36,8 @@ class Interpreter:
             self.runtime = timer.elapse()
             return True
     
-    def summary(self, max, interval) -> str:
-        self.__parse(max_index=max, index_interval=interval)
+    def summary(self, measure, rounder) -> str:
+        self.__parse(measure, rounder)
         return f'''{'-'*25}
 Interpreter opened '{self.filepath}' with the following measures:
 {', '.join(self.labels)}
