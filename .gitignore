@@ -1,3 +1,6 @@
+# .dat files (too large)
+*.dat
+
 # pycache?
 __pycache__
 

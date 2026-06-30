@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-import Timer
-import Interpreter
+import plotters.version2.SingleFileHandling.Timer as Timer
+import plotters.version2.SingleFileHandling.Interpreter as Interpreter
 import pandas as pd  # Useful DataFrames
 import numpy as np  # Useful arrays
 import matplotlib.pyplot as plt  # Creates graphs

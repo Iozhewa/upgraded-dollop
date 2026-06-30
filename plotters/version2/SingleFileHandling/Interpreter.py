@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import Timer
+import plotters.version2.SingleFileHandling.Timer as Timer
 
 class Interpreter:
     def __init__(self, filepath):
