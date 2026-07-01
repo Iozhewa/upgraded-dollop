@@ -51,7 +51,7 @@ if __name__ == "__main__":
     print(interpreter.summary(measure="ET", rounder=4))
 
     plotter = Plotter(interpreter.labels, interpreter.data,
-                      destination="upgraded-dollop/plotters/version2/transient1-1.png")
+                      destination="upgraded-dollop/plotters/version2/transient1-1.svg")
     plotter.setAxis(x="ET", y="V")
     plotter.setTicks(x=np.arange(0, 1100, 200), y=np.arange(-5, 35, 5))
     plotter.chart()
