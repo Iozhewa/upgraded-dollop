@@ -83,5 +83,55 @@ class Parser:
         else:
             return f"{'-'*25}\nParser failed to create dictionary with subset of DAT values.\n{'-'*25}"
 
+class Plotter:
+    '''
+    Provides PyPlot representation of DAT in dictionaries, having been turned into Pandas DataFrames.
+    '''
+    def __init__(self, measures, data:dict[str, list[float]], destination):
+        self.measures:list[str] = measures
+        self.data:object = pd.DataFrame(data)
+        self.destination:str = destination
+        self.__xAxis:str = self.measures[0]
+        self.__yAxis:str = self.measures[1]
+        self.__xTicks:object = np.arange(0, 10, 2)
+        self.__yTicks:object = np.arange(0, 10, 2)
+    def __str__(self):
+        return f"Plotter(measures={','.join(self.measures)})"
+
+    def setAxis(self, x:str, y:str) -> None:
+        '''
+        OOP-concious method of adjusting private axis attributes.
+        '''
+        self.__xAxis = x
+        self.__yAxis = y
+        return
+    def setTicks(self, x:object, y:object) -> None:
+        '''
+        OOP-concious method of adjusting private ticks attributes.
+        '''
+        self.__xTicks = x
+        self.__yTicks = y
+        return
+
+    def chart(self, title:str):
+        '''
+        Given a title, generates a scatter plot based on title and the following attributes:
+        data, axis (x and y), and ticks (x and y). A file is saved based on destination attribute.
+        The latency of the Plotter code is measured and printed out. 
+        '''
+        timer = Timer()
+        timer.elapse()
+        ax = self.data.plot(kind='scatter', x=self.__xAxis, y=self.__yAxis, s=0.001)
+        ax.set_title(title)
+        ax.set_xticks(self.__xTicks, labels=[x for x in self.__xTicks])
+        ax.set_yticks(self.__yTicks, labels=[y for y in self.__yTicks])
+        ax.set_xlim(min(self.__xTicks), max(self.__xTicks))
+        ax.set_ylim(min(self.__yTicks), max(self.__yTicks))
+        plt.savefig(self.destination)
+        plt.show()
+
+        print(f"Plotting completed in {round(timer.elapse(), 3)} seconds")
+        return
+
 if __name__ == "__main__":
     print("Hello, world!")
